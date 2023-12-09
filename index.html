@@ -15,14 +15,29 @@
     <body>
         <nav class="navbar navbar-light bg-light navbar-expand-sm">
             <a href="/" class="navbar-brand">Onyeami Restaurant</a>
-            <ul class="navbar-nav mr-auto">
-                <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="/menu">Menu</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="/services">Services</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="/contact">Contact Us</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="/about">About Us</a></li>
-                <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Sign In / Sign Up</a></li>
-            </ul>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto">
+                    <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Menu
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Food Menu</a>
+                            <a class="dropdown-item" href="#">Drinks Menu</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="/services">Services</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="/contact">Contact Us</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="/about">About Us</a></li>
+                    <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Sign In / Sign Up</a></li>
+                </ul>
+            </div>
             <div class="d-none d-md-block">
                 <p class="navbar-text my-auto mr-2"><i>Nourishing the masses since the turn of the millennium!</i></p>
                 <a href="/login">Sign In / Sign Up</a>
