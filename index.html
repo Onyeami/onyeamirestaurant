@@ -12,48 +12,47 @@
         <link rel="stylesheet" href="asset/css/style.css" type="text/css">        
     </head>
     <body>
-        <nav class="navbar navbar-light bg-light navbar-expand-sm">
-            <a href="/" class="navbar-brand">Onyeami Restaurant</a>
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav mr-auto">
-                    <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                            Menu
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Food Menu</a>
-                            <a class="dropdown-item" href="#">Drinks Menu</a>
+        <div class="container-fluid navalert-container">
+            <div class="container-fluid alert-container">
+                <div class="row d-none d-sm-block">
+                    <div class="col-12">
+                        <div class="site-wide-alert alert-warning">
+                            <strong>Buy gift cards now!</strong> for you, friends and family at a discount.
+                            <a href="">See here for details!</a>
                         </div>
-                    </li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="/services">Services</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="/contact">Contact Us</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="/about">About Us</a></li>
-                    <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Sign In / Sign Up</a></li>
-                </ul>
+                    </div>
+                </div>
             </div>
-            <div class="d-none d-md-block">
-                <p class="navbar-text my-auto mr-2"><i>Nourishing the masses since the turn of the millennium!</i></p>
-                <a href="/login">Sign In / Sign Up</a>
-            </div>
-        </nav>
-        <!-- <div class="container alert-container"> -->
-            <!-- <div class="row d-none d-sm-block"> -->
-                <!-- <div class="col-12"> -->
-                    <!-- <div class="alert alert-warning"> -->
-                        <!-- <strong>Buy gift cards now!</strong> for you, friends and family at a discount. -->
-                        <!-- <a href="">See here for details!</a> -->
-                    <!-- </div> -->
-                <!-- </div> -->
-            <!-- </div> -->
-        <!-- </div> -->
-        <div class="ule">
-            <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#SignUpModal">Sign Up</button>
+            <nav class="navbar navbar-dark navbar-expand-sm">
+                <a href="/" class="navbar-brand">Onyeami Restaurant</a>
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Menu
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Food Menu</a>
+                                <a class="dropdown-item" href="#">Drinks Menu</a>
+                            </div>
+                        </li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="/services">Services</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="/contact">Contact Us</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="/about">About Us</a></li>
+                        <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Sign In / Sign Up</a></li>
+                    </ul>
+                </div>
+                <div class="d-none d-md-block">
+                    <p class="navbar-text my-auto mr-2"><i>Nourishing the masses since the turn of the millennium!</i></p>
+                    <a href="/login" class="btn btn--cta btn--red">Sign In / Sign Up</a>
+                </div>
+            </nav>
         </div>
         <div class="container-fluid callout-container">
             <!-- Callout -->
@@ -63,17 +62,19 @@
                     <section class="callout jumbotron text-center">
                         <h1 class="jumbotron-header">The Onyeami Restaurant - Creating Timeless Delights!</h1>
                         <hr class="block-divider block-divider--orange">                        
-                        <p class="lead">Make reservations for  
-                            <strong><mark>10 guests or more with a</mark></strong> 
-                            <s class="d-none d-sm-inline">20%</s> discount
+                        <p class="lead"><strong><mark>Make reservations for 10 guests or more with a 
+                            <s class="d-none d-sm-inline">20%</s> discount</mark></strong>
                             <span class="d-inline d-sm-none"><br></span> 
                         </p>
-                        <button class="btn btn-lg btn--cta btn--red">Order Now!</button>
+                        <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#SignUpModal">Sign Up</button>
                         <p class="text-muted"><small>Alleviating hunger and cravings!</small></p>
                     </section>
                 </div>
             </div>
             <!-- /.callout -->
+        </div>
+        <div class="ule">
+            <button class="btn btn-lg btn--cta btn--red">Order Now!</button>
         </div>
         <!-- Testimonies -->
         <div class="container testimonies-container">
