@@ -4,3 +4,20 @@ body {
 .ule {
     text-align: center;
 }
+.alert-container {
+
+}
+.callout-container {
+    height: 100vh;
+    background: url(images/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.testimonies-container {
+
+}
+.features-container {
+
+}
