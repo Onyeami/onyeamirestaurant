@@ -9,11 +9,16 @@ body {
 }
 .callout-container {
     height: 100vh;
-    background: url("asset/images/food-table.jpg") no-repeat center center fixed;
+
+    background: url("../images/food-table.jpg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .testimonies-container {
 
